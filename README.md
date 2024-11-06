@@ -1,21 +1,36 @@
-<<<<<<< HEAD
-# fooddelivery
+# Food Delivery App
 
-A new Flutter project.
+This is a food delivery app that allows users to order food from different categories like pizza, ice cream, burger, and salad. The app also includes an admin panel for managing food items, categories, and user orders.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### User Features:
+- **Sign Up & Login:** Users can create an account and log in using their credentials.
+- **Food Categories:** Users can browse food items from different categories such as pizza, burgers, ice creams, and salads.
+- **Order Food:** Users can view food details, add items to the cart, and place orders.
+- **Order History:** Users can check their past orders.
+- **Profile Management:** Users can update their personal information and change their password.
+- **Push Notifications:** Get real-time updates on order status and special promotions.
 
-A few resources to get you started if this is your first Flutter project:
+### Admin Panel Features:
+- **Admin Login:** Admins can log in securely to manage the app’s content.
+- **Manage Food Categories:** Admins can add, edit, or delete food categories.
+- **Manage Food Items:** Admins can add, update, or delete food items from each category.
+- **Manage Orders:** Admins can view and update the status of customer orders (e.g., processed, shipped, delivered).
+- **View User Data:** Admins can view and manage user profiles.
+- **Analytics:** Admins can track the number of orders, revenue, and popular items.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Food-delevery-app
-A complete UI+functional with admin panel food delevery app include responsive UI with complete backend functionality include Firebase Auth, Firebase Crud , Cloud storage, Database methods, payment services, and many more
->>>>>>> 656cdd916fc18a485ed44d68abb7dbd9f640f674
+- Flutter SDK version: **3.0.0** or higher
+- Firebase account (for authentication and Firestore database)
+- Android Studio or Visual Studio Code for development
+- Firebase Authentication enabled for user sign-up/log-in
+- Firebase Firestore for storing food items, orders, and user data
+
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/Food-delevery-app.git
+
